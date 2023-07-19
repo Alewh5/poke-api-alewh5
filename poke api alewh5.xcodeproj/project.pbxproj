@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A859AD22A68AC51007E534A /* poke_api_alewh5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A859AD12A68AC51007E534A /* poke_api_alewh5App.swift */; };
+		7A859AD42A68AC51007E534A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A859AD32A68AC51007E534A /* ContentView.swift */; };
+		7A859AD62A68AC54007E534A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A859AD52A68AC54007E534A /* Assets.xcassets */; };
+		7A859AD92A68AC54007E534A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A859AD82A68AC54007E534A /* Preview Assets.xcassets */; };
+		7A859AE32A68AC54007E534A /* poke_api_alewh5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A859AE22A68AC54007E534A /* poke_api_alewh5Tests.swift */; };
+		7A859AED2A68AC54007E534A /* poke_api_alewh5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A859AEC2A68AC54007E534A /* poke_api_alewh5UITests.swift */; };
+		7A859AEF2A68AC54007E534A /* poke_api_alewh5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A859AEE2A68AC54007E534A /* poke_api_alewh5UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A859ADF2A68AC54007E534A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A859AC62A68AC51007E534A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A859ACD2A68AC51007E534A;
+			remoteInfo = "poke api alewh5";
+		};
+		7A859AE92A68AC54007E534A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A859AC62A68AC51007E534A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A859ACD2A68AC51007E534A;
+			remoteInfo = "poke api alewh5";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A859ACE2A68AC51007E534A /* poke api alewh5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poke api alewh5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A859AD12A68AC51007E534A /* poke_api_alewh5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_api_alewh5App.swift; sourceTree = "<group>"; };
+		7A859AD32A68AC51007E534A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A859AD52A68AC54007E534A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A859AD82A68AC54007E534A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A859ADE2A68AC54007E534A /* poke api alewh5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poke api alewh5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A859AE22A68AC54007E534A /* poke_api_alewh5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_api_alewh5Tests.swift; sourceTree = "<group>"; };
+		7A859AE82A68AC54007E534A /* poke api alewh5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poke api alewh5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A859AEC2A68AC54007E534A /* poke_api_alewh5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_api_alewh5UITests.swift; sourceTree = "<group>"; };
+		7A859AEE2A68AC54007E534A /* poke_api_alewh5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_api_alewh5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A859ACB2A68AC51007E534A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A859ADB2A68AC54007E534A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A859AE52A68AC54007E534A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A859AC52A68AC51007E534A = {
+			isa = PBXGroup;
+			children = (
+				7A859AD02A68AC51007E534A /* poke api alewh5 */,
+				7A859AE12A68AC54007E534A /* poke api alewh5Tests */,
+				7A859AEB2A68AC54007E534A /* poke api alewh5UITests */,
+				7A859ACF2A68AC51007E534A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A859ACF2A68AC51007E534A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A859ACE2A68AC51007E534A /* poke api alewh5.app */,
+				7A859ADE2A68AC54007E534A /* poke api alewh5Tests.xctest */,
+				7A859AE82A68AC54007E534A /* poke api alewh5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A859AD02A68AC51007E534A /* poke api alewh5 */ = {
+			isa = PBXGroup;
+			children = (
+				7A859AD12A68AC51007E534A /* poke_api_alewh5App.swift */,
+				7A859AD32A68AC51007E534A /* ContentView.swift */,
+				7A859AD52A68AC54007E534A /* Assets.xcassets */,
+				7A859AD72A68AC54007E534A /* Preview Content */,
+			);
+			path = "poke api alewh5";
+			sourceTree = "<group>";
+		};
+		7A859AD72A68AC54007E534A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A859AD82A68AC54007E534A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A859AE12A68AC54007E534A /* poke api alewh5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A859AE22A68AC54007E534A /* poke_api_alewh5Tests.swift */,
+			);
+			path = "poke api alewh5Tests";
+			sourceTree = "<group>";
+		};
+		7A859AEB2A68AC54007E534A /* poke api alewh5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A859AEC2A68AC54007E534A /* poke_api_alewh5UITests.swift */,
+				7A859AEE2A68AC54007E534A /* poke_api_alewh5UITestsLaunchTests.swift */,
+			);
+			path = "poke api alewh5UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A859ACD2A68AC51007E534A /* poke api alewh5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A859AF22A68AC54007E534A /* Build configuration list for PBXNativeTarget "poke api alewh5" */;
+			buildPhases = (
+				7A859ACA2A68AC51007E534A /* Sources */,
+				7A859ACB2A68AC51007E534A /* Frameworks */,
+				7A859ACC2A68AC51007E534A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poke api alewh5";
+			productName = "poke api alewh5";
+			productReference = 7A859ACE2A68AC51007E534A /* poke api alewh5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A859ADD2A68AC54007E534A /* poke api alewh5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A859AF52A68AC54007E534A /* Build configuration list for PBXNativeTarget "poke api alewh5Tests" */;
+			buildPhases = (
+				7A859ADA2A68AC54007E534A /* Sources */,
+				7A859ADB2A68AC54007E534A /* Frameworks */,
+				7A859ADC2A68AC54007E534A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A859AE02A68AC54007E534A /* PBXTargetDependency */,
+			);
+			name = "poke api alewh5Tests";
+			productName = "poke api alewh5Tests";
+			productReference = 7A859ADE2A68AC54007E534A /* poke api alewh5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A859AE72A68AC54007E534A /* poke api alewh5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A859AF82A68AC54007E534A /* Build configuration list for PBXNativeTarget "poke api alewh5UITests" */;
+			buildPhases = (
+				7A859AE42A68AC54007E534A /* Sources */,
+				7A859AE52A68AC54007E534A /* Frameworks */,
+				7A859AE62A68AC54007E534A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A859AEA2A68AC54007E534A /* PBXTargetDependency */,
+			);
+			name = "poke api alewh5UITests";
+			productName = "poke api alewh5UITests";
+			productReference = 7A859AE82A68AC54007E534A /* poke api alewh5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A859AC62A68AC51007E534A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7A859ACD2A68AC51007E534A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7A859ADD2A68AC54007E534A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7A859ACD2A68AC51007E534A;
+					};
+					7A859AE72A68AC54007E534A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7A859ACD2A68AC51007E534A;
+					};
+				};
+			};
+			buildConfigurationList = 7A859AC92A68AC51007E534A /* Build configuration list for PBXProject "poke api alewh5" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A859AC52A68AC51007E534A;
+			productRefGroup = 7A859ACF2A68AC51007E534A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A859ACD2A68AC51007E534A /* poke api alewh5 */,
+				7A859ADD2A68AC54007E534A /* poke api alewh5Tests */,
+				7A859AE72A68AC54007E534A /* poke api alewh5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A859ACC2A68AC51007E534A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A859AD92A68AC54007E534A /* Preview Assets.xcassets in Resources */,
+				7A859AD62A68AC54007E534A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A859ADC2A68AC54007E534A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A859AE62A68AC54007E534A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A859ACA2A68AC51007E534A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A859AD42A68AC51007E534A /* ContentView.swift in Sources */,
+				7A859AD22A68AC51007E534A /* poke_api_alewh5App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A859ADA2A68AC54007E534A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A859AE32A68AC54007E534A /* poke_api_alewh5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A859AE42A68AC54007E534A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A859AEF2A68AC54007E534A /* poke_api_alewh5UITestsLaunchTests.swift in Sources */,
+				7A859AED2A68AC54007E534A /* poke_api_alewh5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A859AE02A68AC54007E534A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A859ACD2A68AC51007E534A /* poke api alewh5 */;
+			targetProxy = 7A859ADF2A68AC54007E534A /* PBXContainerItemProxy */;
+		};
+		7A859AEA2A68AC54007E534A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A859ACD2A68AC51007E534A /* poke api alewh5 */;
+			targetProxy = 7A859AE92A68AC54007E534A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A859AF02A68AC54007E534A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A859AF12A68AC54007E534A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A859AF32A68AC54007E534A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"poke api alewh5/Preview Content\"";
+				DEVELOPMENT_TEAM = F4G599K8BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alewh5.poke-api-alewh5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A859AF42A68AC54007E534A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"poke api alewh5/Preview Content\"";
+				DEVELOPMENT_TEAM = F4G599K8BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alewh5.poke-api-alewh5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A859AF62A68AC54007E534A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F4G599K8BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alewh5.poke-api-alewh5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poke api alewh5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poke api alewh5";
+			};
+			name = Debug;
+		};
+		7A859AF72A68AC54007E534A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F4G599K8BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alewh5.poke-api-alewh5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poke api alewh5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poke api alewh5";
+			};
+			name = Release;
+		};
+		7A859AF92A68AC54007E534A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F4G599K8BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alewh5.poke-api-alewh5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poke api alewh5";
+			};
+			name = Debug;
+		};
+		7A859AFA2A68AC54007E534A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F4G599K8BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alewh5.poke-api-alewh5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poke api alewh5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A859AC92A68AC51007E534A /* Build configuration list for PBXProject "poke api alewh5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A859AF02A68AC54007E534A /* Debug */,
+				7A859AF12A68AC54007E534A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A859AF22A68AC54007E534A /* Build configuration list for PBXNativeTarget "poke api alewh5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A859AF32A68AC54007E534A /* Debug */,
+				7A859AF42A68AC54007E534A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A859AF52A68AC54007E534A /* Build configuration list for PBXNativeTarget "poke api alewh5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A859AF62A68AC54007E534A /* Debug */,
+				7A859AF72A68AC54007E534A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A859AF82A68AC54007E534A /* Build configuration list for PBXNativeTarget "poke api alewh5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A859AF92A68AC54007E534A /* Debug */,
+				7A859AFA2A68AC54007E534A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A859AC62A68AC51007E534A /* Project object */;
+}
